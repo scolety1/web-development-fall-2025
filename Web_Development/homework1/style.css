@@ -1,0 +1,9 @@
+.link {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    color: #4e7cb1;
+    text-decoration: none;
+    border-radius: 6px;
+    transition:background-color 0.3 ease;
+}

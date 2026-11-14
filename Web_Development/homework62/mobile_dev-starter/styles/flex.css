@@ -1,0 +1,87 @@
+/* Base (mobile first) */
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background-color:antiquewhite;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  padding: .25rem .5rem;
+  border-radius: 999px;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  background: #e8e8e8;
+  outline: none;
+}
+
+.hero { 
+  padding: 1rem; 
+  background: #f7f7f7; 
+  border: 1px solid #eee; 
+  border-radius: .5rem; 
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-text,
+.hero-media {
+  flex: 1 1 290px;
+  min-width: 260px;
+}
+
+.hero-media img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cards {
+  /* FLEX LAYOUT HERE */
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  body { font-size: 16px; line-height: 1.55; }
+  .hero { padding: .75rem; }
+}
+
+/* 2) Tablet (601px–1024px) — adjust scale & spacing slightly */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body { font-size: 17px; }
+  .hero { padding: 1.25rem; }
+}
+
+/* 3) Desktop (≥1025px) — center wide layouts and scale font upward */
+@media (min-width: 1025px) {
+  body { font-size: 18px; }
+
+  /* center major layout blocks on large screens */
+  body > header,
+  body > nav,
+  body > main,
+  body > footer,
+  .hero {
+    max-width: 1100px;
+    margin-inline: auto;
+  }
+}
