@@ -20,6 +20,10 @@ Open `http://127.0.0.1:8000/Web_Development/homework4/` or `http://127.0.0.1:800
 
 The two responsive-exercise directories are preserved as uploaded; their names alone do not establish which is the final submission.
 
-## Contribution and scope
+## About this archive
 
-Collected by Spencer Colety. This archive includes coursework, examples, or starter material; the bulk-upload history does not establish sole authorship of individual methods. Preserve source credits and course-sharing restrictions. This README update was AI-assisted and does not change the exercise code.
+I wrote the coursework implementations by hand. Included course examples, starter code and framework scaffolding retain their original attribution.
+
+These exercises were originally developed and kept on my computer, then uploaded together in November 2026. The recent Git history reflects that upload, not when I wrote the coursework. Original lab and project folders are retained as separate exercises.
+
+README presentation was updated with AI assistance; exercise source is unchanged.
